@@ -1,0 +1,86 @@
+.header{
+    text-align: center;
+    font-size: 20px;
+}
+.cartcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.product{
+    box-shadow: 0 0 3px 0.3px rgba(0, 0, 0, 0.39);
+    border-radius: 15px;
+    width: 400px;
+    height: auto;
+    margin: 50px;
+    display: flex;
+}
+.product img{
+    width: auto;
+    height: 150px;
+    margin: 20px;
+}
+.product .description{
+    margin-right: 10px; 
+}
+.product:hover{
+    cursor: pointer;
+    box-shadow: 0 0 8px 0.9px rgba(0, 0, 0, 0.39);
+}
+.inputhandler{
+    width: 30px;
+    text-align: center;
+}
+.subTotal{
+    position: fixed;
+    margin-left: 200px;
+    display: grid;
+}
+.counthandleMinus{
+    padding: 5px;
+    border-radius: 3px;
+    margin: 5px;
+    border: none;
+}
+.counthandleMinus:hover{
+    box-shadow: 0 0 3px 0.4px rgba(0, 0, 0, 0.7);
+    
+}
+.counthandleAdd{
+    padding: 5px;
+    border-radius: 3px;
+    margin: 5px;
+    border: none;
+}
+.counthandleAdd:hover{
+   box-shadow: 0 0 3px 0.4px rgba(0, 0, 0, 0.7);
+    
+}
+.checkout{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    border: none;
+}
+.continueShopping{
+    background-color: rgba(16, 123, 246, 0.921);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    border: none;
+}
+.checkout:hover{
+    box-shadow: 0 0 8px 0.9px rgba(0, 0, 0, 0.7);
+}
+.continueShopping:hover{
+    box-shadow: 0 0 8px 0.9px rgba(0, 0, 0, 0.7);
+}
