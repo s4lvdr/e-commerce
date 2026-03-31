@@ -8,7 +8,7 @@ const NavBar = () => {
       <div className={style.navBar}>
         <div className={style.logo}><h1 >GUITAR STORE </h1></div>
         <div className={style.links}>
-          <Link to="/e-commerce/">Shop</Link>
+          <Link to="/">Shop</Link>
           <Link className={style.cartlogo}to="/cart" ><ShoppingCart/></Link>
         </div>
       </div>

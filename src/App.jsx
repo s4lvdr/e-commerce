@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import {HashRouter as Router, Routes, Route} from "react-router-dom"
 import NavBar from "./components/NavBar"
 import Shop from "./pages/shop/Shop"
 import Cart from "./pages/cart/Cart"
@@ -13,7 +13,7 @@ function App() {
         <Router>
           <NavBar/>
           <Routes>
-            <Route path="/e-commerce/" element={<Shop/>}/>
+            <Route path="/" element={<Shop/>}/>
             <Route path="/cart" element={<Cart/>}/>
           </Routes>
         </Router>
