@@ -16,7 +16,7 @@ const Cart = () => {
           {totalAmount > 0 ? 
       <div className={style.subTotal}>
         <p>Subtotal: Php{totalAmount} </p>
-        <button onClick={()=> navigate("/")} className={style.continueShopping}>Continue Shopping</button>
+        <button onClick={()=> navigate("/e-commerce/")} className={style.continueShopping}>Continue Shopping</button>
         <button className={style.checkout}>Checkout</button>
       </div>
       : <h2>Your Cart is empty</h2>

@@ -84,3 +84,36 @@
 .continueShopping:hover{
     box-shadow: 0 0 8px 0.9px rgba(0, 0, 0, 0.7);
 }
+@media (max-width:400px) {
+    .product{
+           width: 250px;
+    }
+    .product img{
+        width: auto;
+        height: 100px;
+        margin: 10px;
+    }
+    .product .description{
+    margin-right: 10px; 
+    font-size: 10px;
+    }
+    .header{
+    text-align: center;
+    font-size: 10px;
+    }
+    .subTotal{
+    margin-left: 10px;
+    }
+   .checkout{
+    padding: 3px;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 10px;
+}
+.continueShopping{
+    padding: 3px;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 10px ;
+}
+}

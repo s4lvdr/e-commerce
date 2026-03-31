@@ -8,8 +8,8 @@ const NavBar = () => {
       <div className={style.navBar}>
         <div className={style.logo}><h1 >GUITAR STORE </h1></div>
         <div className={style.links}>
-          <Link to="/">Shop</Link>
-          <Link to="/cart" ><ShoppingCart size={30}/></Link>
+          <Link to="/e-commerce/">Shop</Link>
+          <Link className={style.cartlogo}to="/cart" ><ShoppingCart/></Link>
         </div>
       </div>
     </>

@@ -7,8 +7,8 @@ const Shop = () => {
   return (
     <div className={style.shop}>
       <div className={style.shopTitle}>
-       <h1 className={style.h1}>Guitar</h1>
-        <h1 className={style.h3}>Hub</h1>
+       <h1 className={style.guitar}>Guitar</h1>
+        <h1 className={style.hub}>Hub</h1>
       </div>
       <div className={style.products}>
         {Product.map((products)=>(
